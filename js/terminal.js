@@ -1,5 +1,5 @@
 const terminal = document.querySelector(".terminal");
-const base = `neyako@<span style="color: #b8d5ef">neji.works</span>:<span style="color: dodgerblue">~</span>$ `;
+const base = `minax@<span style="color: #b8d5ef">.works</span>:<span style="color: dodgerblue">~</span>$ `;
 let array = [];
 let input = "";
 let lastIdx = -1;
@@ -137,7 +137,7 @@ function print404() {
 }
 
 function inputLine(k) {
-	terminal.innerHTML += `\n<div class=\"new-line\">neyako@<span style=\"color: #b8d5ef\">neji.works</span>:<span style=\"color: dodgerblue\">~</span>$ ${k?k:""}</div>`
+	terminal.innerHTML += `\n<div class=\"new-line\">minax@<span style=\"color: #b8d5ef\">.works</span>:<span style=\"color: dodgerblue\">~</span>$ ${k?k:""}</div>`
 }
 
 function writeLine(l) {
@@ -149,5 +149,5 @@ function clear() {
 }
 
 function info() {
-	terminal.innerHTML += '\n<img alt="icon" class="img" src="static/icon.png">\n' + "  <div><span>neyako</span>@<span>neji.works</span></div>\n" + "  <div>---------------------</div>\n" + "  <div><span>OS</span>: Bloatdoze</div>\n" + "  <div><span>Ages</span>: Skid</div>\n" + "  <div><span>Twitter</span>: <a href=\"https://twitter.com/Neyakowo\" target='_blank'>@Neyakowo</a></div>\n" + "  <div><span>Discord</span>: <a href=\"https://discord.com/users/329946665043623936\" target='_blank'>Neyako#0001</a></div>\n" + "  <div><span>Youtube</span>: <a href=\"https://www.youtube.com/channel/UCm6HefGyhKWdN5V6QTII_Ug?view_as=subscriber\" target='_blank'>neyako.</a></div>\n" + "  <div><span>Behance</span>: <a href=\"https://www.behance.net/Neyako\" target='_blank'>Neyako</a></div>\n" + "  <div><span>osu!</span>: <a href=\"https://osu.ppy.sh/users/11698134\" target='_blank'>- Neyako -</a></div>\n" + "  <div><span>Neji Projekt</span>: <a href=\"https://www.facebook.com/NejiProjekt\" target='_blank'>Shop now!</a></div>\n" + '  <div style="padding-bottom:10px; clear: both;">'
+	terminal.innerHTML += '\n<img alt="icon" class="img" src="static/icon.png">\n' + "  <div><span>minax</span>@<span>.works</span></div>\n" + "  <div>---------------------</div>\n" + "  <div><span>OS</span>: Bloatdoze</div>\n" + "  <div><span>Ages</span>: Skid</div>\n" + "  <div><span>Discord</span>: <a href=\"https://discord.com/users/417179099560411137\" target='_blank'>minax#0630</a></div>\n" + "  <div><span>Youtube</span>: <a href=\"https://www.youtube.com/channel/UCyksRMiH5mDUAklmuEBsJkA\" target='_blank'>minax.</a></div>\n" + "  <div><span>Behance</span>: <a href=\"https://www.behance.net/minaxxxx\" target='_blank'>Dinh Quoc Nguyen</a></div>\n" + "  <div><span>osu!</span>: <a href=\"https://osu.ppy.sh/users/15996488\" target='_blank'>JustMina</a></div>\n" + '  <div style="padding-bottom:10px; clear: both;">'
 }
